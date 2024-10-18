@@ -1,0 +1,22 @@
+.JavaDemo {
+    background-color: #0D47A1;
+    color: white;
+
+    .container-content {
+        button {
+            margin-bottom: 2rem;
+            background-color: #FFC107;
+            border: none;
+            padding: 1rem;
+            border-radius: 1rem;
+
+            &:hover {
+                background-color: #FFE082;
+            }
+        }
+
+        img {
+            border-radius: 1rem;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.CSSDemo {
+    background-color: #FFE082;
+    color: black;
+
+    .container-content {
+    
+        h2 {
+            position: absolute;
+            right: 0;
+        }
+    
+        h3 {
+            color: red;
+        }
+    
+        h4, h5, h6 {
+            text-align: center;
+        }
+
+        a {
+            color: rgb(80, 108, 194);
+
+            &:hover {
+                color: cadetblue;
+            }
+        }
+
+        button {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: none;
+            border-radius: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: rgb(180, 64, 95);
+            color: white;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: rgb(160, 102, 118);
+            }
+        }
+
+        &-p {
+            text-transform: uppercase;
+            text-decoration: line-through;
+        }
+
+        ol {
+            color: white;
+            background-color: black;
+            border-radius: 1.5rem;
+        }
+        
+    }
+}

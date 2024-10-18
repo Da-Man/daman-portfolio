@@ -1,11 +1,12 @@
 import React from 'react'
 import './stylesheets/HTMLDemo.scss';
+import Typewriter from 'react-ts-typewriter';
 
 const HTMLDemo: React.FC = () => {
   return (
     <div id="HTMLDemo" className="HTMLDemo container">
         <div className='container-content'>
-            <h1>HTML Demo</h1>
+            <h1><Typewriter text="HTML Demo" loop={true} speed={100} delay={3000} /></h1>
             <p>Yes, I can HTML:</p>
             <h2>I am a &#60;H2&#62;</h2>
             <h3>I am a &#60;H3&#62;</h3>

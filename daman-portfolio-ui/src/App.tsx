@@ -5,11 +5,12 @@ import ICanCode from './components/ICanCode';
 import HTMLDemo from './components/HTMLDemo';
 import CSSDemo from './components/CSSDemo';
 import JavaDemo from './components/JavaDemo';
+import PHPDemo from './components/PHPDemo';
+import IHaveExperience from './components/IHaveExperience';
 
 // stylesheets
 import './App.scss';
 import './reset.scss';
-
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,8 @@ const App: React.FC = () => {
       <HTMLDemo />
       <CSSDemo />
       <JavaDemo />
+      <PHPDemo />
+      <IHaveExperience />
     </div>
   );
 }

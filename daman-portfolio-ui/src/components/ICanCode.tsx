@@ -14,8 +14,8 @@ const ICanCode: React.FC = () => {
                 <a href="#HTMLDemo"><li>HTML</li></a>
                 <a href="#CSSDemo"><li>CSS/Sass/SCSS</li></a>
                 <li><b>React/TypeScript</b>: nothing to see here. This whole project is built in React and TypeScript...so, moving on...</li>
-                <a href="javascript:void(0)"><li>Java</li></a>
-                <a href="javascript:void(0)"><li>PHP/Laravel</li></a>
+                <a href="#JavaDemo"><li>Java</li></a>
+                <a href="#PHPDemo"><li>PHP/Laravel</li></a>
             </ul>
             <p></p>
         </div>

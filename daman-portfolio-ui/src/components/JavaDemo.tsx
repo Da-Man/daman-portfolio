@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './stylesheets/JavaDemo.scss';
-import { error } from 'console';
+import Typewriter from 'react-ts-typewriter';
 
 const JavaDemo: React.FC = () => {
 
@@ -29,7 +29,7 @@ const JavaDemo: React.FC = () => {
     return (
         <div id="JavaDemo" className="JavaDemo container">
             <div className='container-content'>
-                <h1>Java Demo</h1>
+                <h1><Typewriter text="Java Demo" loop={true} speed={100} delay={3000} /></h1>
                 <p>So, to show that I do know Java, I setup a very very very simple Java Backend with one controller. All it does is return an image URL:</p>
                 <button onClick={getData}>Get Image</button>
                 { fetchedImageUrl !== '' ?  fetchedImageTag  : null}

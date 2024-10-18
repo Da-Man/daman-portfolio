@@ -1,11 +1,12 @@
 import React from 'react'
 import './stylesheets/CSSDemo.scss';
+import Typewriter from 'react-ts-typewriter';
 
 const CSSDemo: React.FC = () => {
   return (
     <div id="CSSDemo" className="CSSDemo container">
         <div className='container-content'>
-            <h1>CSS/Saas/SCSS Demo</h1>
+            <h1><Typewriter text="CSS/Saas/SCSS Demo" loop={true} speed={100} delay={3000} /></h1>
             <p>CSS/Saas/SCSS are my favourite. Here is a little demo...and yes, its purposely meant to look bad:</p>
             <h2>I am a &#60;H2&#62;</h2>
             <h3>I am a &#60;H3&#62;</h3>

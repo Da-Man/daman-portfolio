@@ -1,0 +1,43 @@
+.IHaveExperience {
+    background-color: #26A69A;
+    color: black;
+    height: auto !important;
+
+    .container-content {
+        img {
+            border-radius: 1rem;
+            width: 20vw;
+        }
+    }
+
+    &-projects {
+        margin-top: 3rem;
+
+        &-project {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+            margin-bottom: 2rem;
+    
+            &-info {
+                flex: 1; 
+                margin-left: 1rem;
+
+                p, a {
+                    font-size: 1.3rem;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #A62632;
+
+                    &:hover {
+                        color: #9e4a52;
+                    }
+                }
+            }
+        }
+    }
+}

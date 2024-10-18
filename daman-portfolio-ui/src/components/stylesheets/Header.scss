@@ -18,12 +18,31 @@
             color: blue;
         }
     }
+
+    nav {
+        margin-left: 2rem;
+        
+        a {
+            margin-right: 2rem;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            
+            &:hover {
+                color: blue;
+            }
+        }
+    }
 }
 
-@media (width <= 800px) {
+@media (width <= 1000px) {
     .Header {
         &-title {
             font-size: 1.5rem;
+        }
+
+        nav {
+            display: none;
         }
     }
 }

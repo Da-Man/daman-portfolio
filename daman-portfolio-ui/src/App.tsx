@@ -7,6 +7,7 @@ import CSSDemo from './components/CSSDemo';
 import JavaDemo from './components/JavaDemo';
 import PHPDemo from './components/PHPDemo';
 import IHaveExperience from './components/IHaveExperience';
+import MessageFromMe from './components/MessageFromMe';
 
 // stylesheets
 import './App.scss';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
       <JavaDemo />
       <PHPDemo />
       <IHaveExperience />
+      <MessageFromMe />
     </div>
   );
 }

@@ -5,7 +5,6 @@ const Header: React.FC = () => {
   return (
     <div className="Header">
         <a href="#top" className="Header-title">// Damanvir Singh</a>
-
         <nav>
           <a href="#ICanCode">Reason #1</a>
           <a href="#HTMLDemo">HTML Demo</a>
@@ -13,6 +12,7 @@ const Header: React.FC = () => {
           <a href="#JavaDemo">Java Demo</a>
           <a href="#PHPDemo">PHP Demo</a>
           <a href="#IHaveExperience">Reason #2</a>
+          <a href="#MessageFromMe">Reason #3</a>
         </nav>
     </div>
   )
